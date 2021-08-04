@@ -1,0 +1,1800 @@
+Query : SELECT * FROM TABLE
+User : test
+Time of Submission : 27/07/2021 02:02:12
+Message : Please Select Database First !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE TEST
+User : test
+Time of Submission : 27/07/2021 02:02:27
+Message : TEST Database Selected !!!
+Total Time Elapsed : 7 ms
+
+Query : SELECT * FROM TEST
+User : test
+Time of Submission : 27/07/2021 02:02:44
+Message : 
+Total Time Elapsed : 2 ms
+
+Query : USE DATABASE TEST
+User : test
+Time of Submission : 27/07/2021 02:04:12
+Message : TEST Database Selected !!!
+Total Time Elapsed : 7 ms
+
+Query : SELECT * FROM STUDENT
+User : test
+Time of Submission : 27/07/2021 02:04:25
+Message : 
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : tet
+Time of Submission : 27/07/2021 02:06:04
+Message : TEST Database Selected !!!
+Total Time Elapsed : 6 ms
+
+Query : SELECT * FROM STUDENT
+User : tet
+Time of Submission : 27/07/2021 02:06:16
+Message : 
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : test
+Time of Submission : 27/07/2021 02:08:18
+Message : TEST Database Selected !!!
+Total Time Elapsed : 7 ms
+
+Query : SELECT * FROM STUDENT
+User : test
+Time of Submission : 27/07/2021 02:08:42
+Message : 
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : test
+Time of Submission : 27/07/2021 02:09:12
+Message : TEST Database Selected !!!
+Total Time Elapsed : 6 ms
+
+Query : SELECT * FROM STUDENT
+User : test
+Time of Submission : 27/07/2021 02:09:24
+Message : 
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : test
+Time of Submission : 27/07/2021 02:10:13
+Message : TEST Database Selected !!!
+Total Time Elapsed : 6 ms
+
+Query : SELECT * FROM STUDENT
+User : test
+Time of Submission : 27/07/2021 02:10:26
+Message : 
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : test
+Time of Submission : 27/07/2021 02:11:51
+Message : TEST Database Selected !!!
+Total Time Elapsed : 6 ms
+
+Query : SELECT * FROM STUDENT
+User : test
+Time of Submission : 27/07/2021 02:12:02
+Message : Table is in use by other user !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE TEST;
+User : rushit
+Time of Submission : 27/07/2021 09:31:52
+Message : TEST Database Selected !!!
+Total Time Elapsed : 5 ms
+
+Query : CREATE DATABASE TEST123;
+User : Prarthana
+Time of Submission : 27/07/2021 09:33:56
+Message : Database Created Successfully !!!
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST123
+User : Prarthana
+Time of Submission : 27/07/2021 09:34:14
+Message : TEST123 Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : CREATE TABLE EMPLOYEE (EMP_ID INT(30), NAME INT(30), PRIMARY KEY (EMP_ID))
+User : Prarthana
+Time of Submission : 27/07/2021 09:34:50
+Message : Table Created Successfully !!!
+Total Time Elapsed : 7 ms
+
+Query : CREATE TABLE STUDENT (STD_ID INT(30), STD_NAME VARCHAR(45), PRIMARY KEY (STD_ID), FOREIGN KEY (STD_NAME) REFERENCES EMPLOYEE(EMP_ID))
+User : Prarthana
+Time of Submission : 27/07/2021 09:40:17
+Message : Table Created Successfully !!!
+Total Time Elapsed : 9 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "RUSHIT")
+User : Prarthana
+Time of Submission : 27/07/2021 09:44:39
+Message : 
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE TEST123
+User : test
+Time of Submission : 27/07/2021 12:54:14
+Message : TEST123 Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE TEST123
+User : test
+Time of Submission : 27/07/2021 15:59:01
+Message : TEST123 Database Selected !!!
+Total Time Elapsed : 6 ms
+
+Query : USE DATABASE TEST123
+User : test
+Time of Submission : 27/07/2021 16:17:05
+Message : TEST123 Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE TEST123
+User : test
+Time of Submission : 27/07/2021 16:19:39
+Message : TEST123 Database Selected !!!
+Total Time Elapsed : 5 ms
+
+Query : CREATE DATABASE DB_PROJECT
+User : test
+Time of Submission : 27/07/2021 16:22:56
+Message : Database Created Successfully !!!
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST123;
+User : test
+Time of Submission : 27/07/2021 17:22:01
+Message : TEST123 Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : SELECT FROM EMPLOYEE
+User : test
+Time of Submission : 27/07/2021 17:22:13
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM EMPLOYEE;
+User : test
+Time of Submission : 27/07/2021 17:22:29
+Message : 
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM TEST
+User : test
+Time of Submission : 27/07/2021 17:22:48
+Message : Table not already Exist !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM USER
+User : Rushit
+Time of Submission : 27/07/2021 17:33:06
+Message : Table not Exist !!!
+Total Time Elapsed : 3 ms
+
+Query : SELECT * FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 17:33:23
+Message : null
+Total Time Elapsed : 3 ms
+
+Query : SELECT * FROM STUDENT WHERE
+User : Rushit
+Time of Submission : 27/07/2021 17:33:43
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM STUDENT WHERE ID=1
+User : Rushit
+Time of Submission : 27/07/2021 17:34:20
+Message : null
+Total Time Elapsed : 4 ms
+
+Query : SELECT * FROM STUDENT WHERE  ID = 1
+User : Rushit
+Time of Submission : 27/07/2021 17:34:31
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM STUDENT WHERE  ID = 1
+User : Rushit
+Time of Submission : 27/07/2021 17:35:23
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : SELECT * FROM STUDENT WHERE ID = 1
+User : Rushit
+Time of Submission : 27/07/2021 17:36:07
+Message : null
+Total Time Elapsed : 4 ms
+
+Query : SELECT * FROM STUDENT WHERE ID = 1
+User : Rushit
+Time of Submission : 27/07/2021 17:36:39
+Message : null
+Total Time Elapsed : 3 ms
+
+Query : SELECT * FROM STUDENT WHERE ID =1
+User : Rushit
+Time of Submission : 27/07/2021 17:36:47
+Message : null
+Total Time Elapsed : 4 ms
+
+Query : SELECT * FROM STUDENT WHERE ID=1
+User : Rushit
+Time of Submission : 27/07/2021 17:36:56
+Message : null
+Total Time Elapsed : 4 ms
+
+Query : SELECT * FROM STUDENT WHERE ID =TEST
+User : Rushit
+Time of Submission : 27/07/2021 17:39:48
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM STUDENT WHERE ID ="TEST"
+User : Rushit
+Time of Submission : 27/07/2021 17:40:03
+Message : null
+Total Time Elapsed : 4 ms
+
+Query : SELECT ID FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 17:40:55
+Message : null
+Total Time Elapsed : 3 ms
+
+Query : SELECT ID,NAME FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 17:41:15
+Message : null
+Total Time Elapsed : 3 ms
+
+Query : SELECT ID, NAME FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 17:41:25
+Message : null
+Total Time Elapsed : 3 ms
+
+Query : SELECT ID, NAME FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 17:41:48
+Message : null
+Total Time Elapsed : 3 ms
+
+Query : SELECT ID, FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 17:42:10
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT ID, NAME FROM STUDENT WHERE NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 17:43:04
+Message : null
+Total Time Elapsed : 4 ms
+
+Query : SELECT ID, NAME FROM STUDENT WHERE NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 17:47:18
+Message : null
+Total Time Elapsed : 11 ms
+
+Query : SELECT ID, NAME FROM STUDENT WHERE NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:00:37
+Message : Condition Column not exist in table !!!
+Total Time Elapsed : 10 ms
+
+Query : SELECT ID, NAME FROM STUDENT WHERE NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:07:54
+Message : Column ID not exist in table
+Total Time Elapsed : 10 ms
+
+Query : SELECT STD_ID, NAME FROM STUDENT WHERE NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:08:19
+Message : Column NAME not exist in table
+Total Time Elapsed : 11 ms
+
+Query : SELECT STD_ID, STD_NAME FROM STUDENT WHERE NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:08:33
+Message : Condition Column not exist in table !!!
+Total Time Elapsed : 10 ms
+
+Query : SELECT STD_ID, STD_NAME FROM STUDENT WHERE STD_NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:08:47
+Message : null
+Total Time Elapsed : 12 ms
+
+Query : SELECT * FROM STUDENT WHERE STD_NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:10:07
+Message : null
+Total Time Elapsed : 11 ms
+
+Query : SELECT * FROM STUDENT WHERE STD_NAME = "TEST"
+User : Rushit
+Time of Submission : 27/07/2021 18:11:06
+Message : null
+Total Time Elapsed : 10 ms
+
+Query : SELECT FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 18:11:55
+Message : Invalid Query !!!
+Total Time Elapsed : 2 ms
+
+Query : SELECT * FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 19:01:43
+Message : Condition Column not exist in table !!!
+Total Time Elapsed : 10 ms
+
+Query : SELECT * FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 19:03:18
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT * FROM STUDENT
+User : Rushit
+Time of Submission : 27/07/2021 19:06:08
+Message : 
+Total Time Elapsed : 13 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:09:21
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:09:37
+Message : 
+Total Time Elapsed : 16 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:11:30
+Message : 
+Total Time Elapsed : 14 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:12:59
+Message : 
+Total Time Elapsed : 14 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:16:52
+Message : 
+Total Time Elapsed : 14 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:17:30
+Message : 
+Total Time Elapsed : 14 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:31:24
+Message : 
+Total Time Elapsed : 13 ms
+
+Query : SELECT NAME FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:32:03
+Message : 
+Total Time Elapsed : 16 ms
+
+Query : SELECT EMP_ID, NAME FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:32:29
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT EMP_ID, NAME FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 19:50:13
+Message : 
+Total Time Elapsed : 14 ms
+
+Query : SELECT EMP_ID, NAME FROM EMPLOYEE WHERE EMP_ID=1
+User : Rushit
+Time of Submission : 27/07/2021 19:50:35
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT EMP_ID, NAME FROM EMPLOYEE WHERE EMP_ID=1
+User : Rushit
+Time of Submission : 27/07/2021 19:51:05
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT EMP_ID, NAME FROM EMPLOYEE WHERE EMP_ID!=1
+User : Rushit
+Time of Submission : 27/07/2021 19:51:18
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT NAME FROM EMPLOYEE WHERE EMP_ID!=1
+User : Rushit
+Time of Submission : 27/07/2021 19:53:25
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT NAME FROM EMPLOYEE WHERE EMP_ID!=1
+User : Rushit
+Time of Submission : 27/07/2021 19:54:12
+Message : 
+Total Time Elapsed : 16 ms
+
+Query : SELECT * FROM EMPLOYEE WHERE EMP_ID!=1
+User : Rushit
+Time of Submission : 27/07/2021 19:54:27
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT * FROM EMPLOYEE WHERE EMP_ID!=1
+User : Rushit
+Time of Submission : 27/07/2021 19:55:33
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT * FROM EMPLOYEE WHERE EMP_ID!=1
+User : Rushit
+Time of Submission : 27/07/2021 20:00:48
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 20:01:21
+Message : 
+Total Time Elapsed : 15 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 20:02:31
+Message : 
+Total Time Elapsed : 13 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 20:08:08
+Message : 
+Total Time Elapsed : 14 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 20:09:38
+Message : 4 Raws found
+Total Time Elapsed : 13 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 20:10:14
+Message : 4 Raws found
+Total Time Elapsed : 16 ms
+
+Query : SELECT * FROM EMPLOYEE
+User : Rushit
+Time of Submission : 27/07/2021 20:10:40
+Message : 4 Raws found
+Total Time Elapsed : 14 ms
+
+Query : SELECT * FROM STUDENT
+User : rushit123
+Time of Submission : 28/07/2021 01:57:16
+Message : Please Select Database First !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 28/07/2021 01:57:45
+Message : TEST Database Selected !!!
+Total Time Elapsed : 5 ms
+
+Query : SELECT * STUDENT
+User : rushit123
+Time of Submission : 28/07/2021 02:04:35
+Message : Please Select Database First !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 02:04:55
+Message : Invalid Database !!!
+Total Time Elapsed : 5 ms
+
+Query : CREATE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 02:05:20
+Message : Database Created Successfully !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 02:05:52
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENT@@
+User : rushit123
+Time of Submission : 28/07/2021 02:06:25
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 02:06:48
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE TABLE STUDENT (STD_ID INT(10), STD_NAME VARCHAR()5)
+User : rushit123
+Time of Submission : 28/07/2021 02:08:49
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM STUDENT
+User : rushit345
+Time of Submission : 28/07/2021 06:21:48
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : CREATE DATABASE STUDENT@@
+User : rushit345
+Time of Submission : 28/07/2021 06:22:31
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE DATABASE STUDENTDB
+User : rushit345
+Time of Submission : 28/07/2021 06:23:06
+Message : Database Created Successfully !!!
+Total Time Elapsed : 2 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit345
+Time of Submission : 28/07/2021 06:24:06
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 8 ms
+
+Query : CREATE TABLE STUDENT (STD_ID INT(30), STD_NAME)
+User : rushit345
+Time of Submission : 28/07/2021 06:26:08
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE TABLE STUDENT (STD_ID INT(30), STD_NAME VARCHAR(45))
+User : rushit345
+Time of Submission : 28/07/2021 06:26:29
+Message : Table Created Successfully !!!
+Total Time Elapsed : 11 ms
+
+Query : CREATE TABLE STUDENT_NEW (STD_ID INT(30), STD_NAME VARCHAR(45), PRIMARY KEY (ID))
+User : rushit345
+Time of Submission : 28/07/2021 06:28:28
+Message : Invalid Primary Key !!!
+Total Time Elapsed : 2 ms
+
+Query : CREATE TABLE STUDENT_NEW (STD_ID INT(30), STD_NAME VARCHAR(45), PRIMARY KEY (STD_ID))
+User : rushit345
+Time of Submission : 28/07/2021 06:28:48
+Message : Table Created Successfully !!!
+Total Time Elapsed : 6 ms
+
+Query : CREATE TABLE GRADES (GRADE_ID INT(30), STDID INT(30), PRIMARY KEY (GRADE_ID), FOREIGN KEYV(STDID) REFERENCES TABLEDEMO(ID))
+User : rushit345
+Time of Submission : 28/07/2021 06:32:08
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : CREATE TABLE GRADES (GRADE_ID INT(30), STDID INT(30), PRIMARY KEY (GRADE_ID), FOREIGN KEY(STDID) REFERENCES TABLEDEMO(ID))
+User : rushit345
+Time of Submission : 28/07/2021 06:33:35
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE TABLE GRADES (GRADE_ID INT(30), STDID INT(30), PRIMARY KEY (GRADE_ID), FOREIGN KEY (STDID) REFERENCES TABLEDEMO(ID))
+User : rushit345
+Time of Submission : 28/07/2021 06:34:12
+Message : Invalid Foreign Reference Table : TABLEDEMO
+Total Time Elapsed : 5 ms
+
+Query : CREATE TABLE GRADES (GRADE_ID INT(30), STDID INT(30), PRIMARY KEY (GRADE_ID), FOREIGN KEY (STDID) REFERENCES STUDENT_NEW(STD_ID))
+User : rushit345
+Time of Submission : 28/07/2021 06:34:46
+Message : Table Created Successfully !!!
+Total Time Elapsed : 8 ms
+
+Query : CREATE TABLE STUDENT (STD_SURNAME VARCHAR(45))
+User : rushit345
+Time of Submission : 28/07/2021 06:36:01
+Message : Table already Exist !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 28/07/2021 06:41:31
+Message : TEST Database Selected !!!
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 06:42:20
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 06:45:48
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 06:48:03
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 5 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 28/07/2021 06:48:58
+Message : TEST Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 06:50:24
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE DATABASE MYDB;
+User : arvinder
+Time of Submission : 28/07/2021 13:22:01
+Message : Database Created Successfully !!!
+Total Time Elapsed : 16 ms
+
+Query : USE DATABASE MYDB;
+User : arvinder
+Time of Submission : 28/07/2021 13:22:49
+Message : MYDB Database Selected !!!
+Total Time Elapsed : 0 ms
+
+Query : CREATE TABLE EMP_DETAILS (EMP_ID INT(10), EMP_NAME VARCHAR(20), EMP_ADDRESS VARCHAR(20), EMP_CONTACT INT(20), PRIMARY KEY (EMP_ID));
+User : arvinder
+Time of Submission : 28/07/2021 13:22:55
+Message : Table Created Successfully !!!
+Total Time Elapsed : 15 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (1, "EMP1", "ADDRESS1", 9876543210);
+User : arvinder
+Time of Submission : 28/07/2021 13:23:08
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (2, "EMP2", "ADDRESS2", 8765432100);
+User : arvinder
+Time of Submission : 28/07/2021 13:23:42
+Message : Row inserted
+Total Time Elapsed : 15 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (3, "EMP3", "ADDRESS3", 7654321000);
+User : arvinder
+Time of Submission : 28/07/2021 13:23:50
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (4, "EMP4", "ADDRESS4", 9876519210);
+User : arvinder
+Time of Submission : 28/07/2021 13:23:58
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (5, "EMP5", "ADDRESS5", 9489443210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:04
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (6, "EMP6", "ADDRESS6", 9498543210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:11
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (7, "EMP7", "ADDRESS7", 9868843210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:17
+Message : Row inserted
+Total Time Elapsed : 6 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (8, "EMP8", "ADDRESS8", 9811443210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:23
+Message : Row inserted
+Total Time Elapsed : 10 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (9, "EMP9", "ADDRESS9", 9851443210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:30
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (10, "EMP10", "ADDRESS10", 9878523210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:36
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (11, "EMP11", "ADDRESS11", 9878523210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:43
+Message : Row inserted
+Total Time Elapsed : 10 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (12, "EMP12", "ADDRESS12", 9878523210);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:50
+Message : Row inserted
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (13, "EMP13", "ADDRESS13", 9878521313);
+User : arvinder
+Time of Submission : 28/07/2021 13:24:56
+Message : Row inserted
+Total Time Elapsed : 7 ms
+
+Query : USE DATABASE MYDB
+User : rushit123
+Time of Submission : 28/07/2021 07:03:26
+Message : MYDB Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : SELECT * FROM EMP_DETAILS
+User : rushit123
+Time of Submission : 28/07/2021 07:03:46
+Message : 13 Raws found
+Total Time Elapsed : 11 ms
+
+Query : SELECT * FROM EMP_DETAILS WHERE EMP_ID != 10
+User : rushit123
+Time of Submission : 28/07/2021 07:07:00
+Message : 12 Raws found
+Total Time Elapsed : 6 ms
+
+Query : SELECT * FROM EMP_DETAILS WHERE EMP_NAME = "EMP1"
+User : rushit123
+Time of Submission : 28/07/2021 07:07:54
+Message : 1 Raws found
+Total Time Elapsed : 6 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 07:27:02
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 5 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 07:56:30
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 9 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES
+User : rushit123
+Time of Submission : 28/07/2021 07:57:48
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 07:58:51
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES (1))
+User : rushit123
+Time of Submission : 28/07/2021 07:59:15
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES (1,2))
+User : rushit123
+Time of Submission : 28/07/2021 07:59:30
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES (1, 2))
+User : rushit123
+Time of Submission : 28/07/2021 08:00:23
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES (1, 2))
+User : rushit123
+Time of Submission : 28/07/2021 08:03:06
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES (1, 2))
+User : rushit123
+Time of Submission : 28/07/2021 08:03:23
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:03:36
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES (1, 2))
+User : rushit123
+Time of Submission : 28/07/2021 08:03:41
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:06:50
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : INSERT INTO STUDENT (STD, NAME)
+User : Rushit
+Time of Submission : 28/07/2021 08:09:27
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES
+User : Rushit
+Time of Submission : 28/07/2021 08:12:00
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES
+User : Rushit
+Time of Submission : 28/07/2021 08:12:08
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD, NAME) VALUES
+User : Rushit
+Time of Submission : 28/07/2021 08:12:50
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE TABLE EMP_DETAILS (EMP_ID INT(10), EMP_NAME VARCHAR(20), EMP_ADDRESS VARCHAR(20), EMP_CONTACT INT(20), PRIMARY KEY (EMP_ID));
+User : Rushit
+Time of Submission : 28/07/2021 08:16:06
+Message : Table Created Successfully !!!
+Total Time Elapsed : 5 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (1, "EMP1", "ADDRESS1", 9876543210);
+User : Rushit
+Time of Submission : 28/07/2021 08:16:31
+Message : 
+Total Time Elapsed : 11 ms
+
+Query : INSERT INTO EMP_DETAILS (EMP_ID, EMP_NAME, EMP_ADDRESS, EMP_CONTACT) VALUES (1, "EMP1", "ADDRESS1", 9876543210);
+User : Rushit
+Time of Submission : 28/07/2021 08:16:53
+Message : 
+Total Time Elapsed : 12 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:17:29
+Message : Table is in use by other user !!!
+Total Time Elapsed : 3 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:17:43
+Message : 
+Total Time Elapsed : 10 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:18:48
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:19:03
+Message : 
+Total Time Elapsed : 11 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:19:21
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:19:33
+Message : 
+Total Time Elapsed : 10 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:20:26
+Message : 
+Total Time Elapsed : 11 ms
+
+Query : 
+User : Rushit
+Time of Submission : 28/07/2021 08:20:59
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:21:05
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:21:49
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:23:54
+Message : 
+Total Time Elapsed : 11 ms
+
+Query : INSERT INTO STUDENT (STD_ID, NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:26:20
+Message : Column NAME not exist in table
+Total Time Elapsed : 5 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:27:23
+Message : Missing primary key column!!!
+Total Time Elapsed : 16 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:28:06
+Message : Missing primary key column!!!
+Total Time Elapsed : 15 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "EMP1");
+User : Rushit
+Time of Submission : 28/07/2021 08:28:35
+Message : Missing primary key column!!!
+Total Time Elapsed : 15 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "RUSHIT");
+User : Rushit
+Time of Submission : 28/07/2021 08:29:07
+Message : Row inserted
+Total Time Elapsed : 18 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "RUSHIT");
+User : Rushit
+Time of Submission : 28/07/2021 08:29:57
+Message : Row inserted
+Total Time Elapsed : 17 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (2, "PRARTHANA");
+User : Rushit
+Time of Submission : 28/07/2021 08:30:11
+Message : Row inserted
+Total Time Elapsed : 17 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:40:11
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "RUSHIT");
+User : rushit123
+Time of Submission : 28/07/2021 08:40:21
+Message : Row inserted
+Total Time Elapsed : 19 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID=1;
+User : rushit123
+Time of Submission : 28/07/2021 08:41:15
+Message : 
+Total Time Elapsed : 6 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID=1;
+User : rushit123
+Time of Submission : 28/07/2021 08:42:52
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:43:11
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID=1;
+User : rushit123
+Time of Submission : 28/07/2021 08:43:15
+Message : 
+Total Time Elapsed : 5 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:44:48
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID=1;
+User : rushit123
+Time of Submission : 28/07/2021 08:44:51
+Message : 
+Total Time Elapsed : 5 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:46:04
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID=1;
+User : rushit123
+Time of Submission : 28/07/2021 08:46:10
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 13 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:49:04
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "RUSHIT");
+User : rushit123
+Time of Submission : 28/07/2021 08:49:55
+Message : Row inserted
+Total Time Elapsed : 23 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "ARVINDER");
+User : rushit123
+Time of Submission : 28/07/2021 08:50:33
+Message : Row inserted
+Total Time Elapsed : 8 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (2, "PRARTHNA");
+User : rushit123
+Time of Submission : 28/07/2021 08:50:56
+Message : Row inserted
+Total Time Elapsed : 11 ms
+
+Query : INSERT INTO STUDENT (STD_, STD_NAME) VALUES (2, "PRARTHNA");
+User : rushit123
+Time of Submission : 28/07/2021 08:52:55
+Message : Column STD_ not exist in table
+Total Time Elapsed : 6 ms
+
+Query : INSERT INTO STUDENT_NEW (STD_ID, STD_NAME) VALUES (1, "RUSHIT_NEW");
+User : rushit123
+Time of Submission : 28/07/2021 08:54:18
+Message : Row inserted
+Total Time Elapsed : 7 ms
+
+Query : INSERT INTO STUDENT_NEW (STD_ID, STD_NAME) VALUES (2, "RUSHIT_2");
+User : rushit123
+Time of Submission : 28/07/2021 08:54:41
+Message : Row inserted
+Total Time Elapsed : 9 ms
+
+Query : SELECT * FROM STUDENT
+User : rushit123
+Time of Submission : 28/07/2021 08:55:29
+Message : Table is in use by other user !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 28/07/2021 08:56:41
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : SELECT * FROM STUDENT
+User : rushit123
+Time of Submission : 28/07/2021 08:56:58
+Message : 3 Raws found
+Total Time Elapsed : 7 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (1, "ARVINDER");
+User : rushit123
+Time of Submission : 28/07/2021 08:59:22
+Message : Row inserted
+Total Time Elapsed : 17 ms
+
+Query : INSERT INTO STUDENT (STD_ID, STD_NAME) VALUES (2, "RUSHIT");
+User : rushit123
+Time of Submission : 28/07/2021 08:59:48
+Message : Row inserted
+Total Time Elapsed : 8 ms
+
+Query : SELECT * FROM STUDENT
+User : rushit123
+Time of Submission : 28/07/2021 09:01:02
+Message : 2 Raws found
+Total Time Elapsed : 4 ms
+
+Query : SELECT * FROM
+User : rushit123
+Time of Submission : 28/07/2021 09:01:22
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : SELECT STD_NAME FROM STUDENT
+User : rushit123
+Time of Submission : 28/07/2021 09:01:51
+Message : 2 Raws found
+Total Time Elapsed : 3 ms
+
+Query : SELECT * FROM STUDENT WHERE STD_ID=1
+User : rushit123
+Time of Submission : 28/07/2021 09:02:40
+Message : 1 Raws found
+Total Time Elapsed : 3 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID=1;
+User : rushit123
+Time of Submission : 28/07/2021 09:03:33
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 6 ms
+
+Query : CREATE DATABASE DAL
+User : rushit456
+Time of Submission : 28/07/2021 09:52:15
+Message : Database Created Successfully !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE DAL
+User : rushit456
+Time of Submission : 28/07/2021 09:53:10
+Message : DAL Database Selected !!!
+Total Time Elapsed : 6 ms
+
+Query : CREATE TABLE STUDENT (ID INT(10), NAME VARCHAR(45))
+User : rushit456
+Time of Submission : 28/07/2021 09:53:40
+Message : Table Created Successfully !!!
+Total Time Elapsed : 6 ms
+
+Query : CREATE TABLE STAFF (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID))
+User : rushit456
+Time of Submission : 28/07/2021 09:54:26
+Message : Table Created Successfully !!!
+Total Time Elapsed : 5 ms
+
+Query : CREATE TABLE EMPLOYEE (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID), FOREIGN KEY (NAME) REFERENCES STAFF(ID))
+User : rushit456
+Time of Submission : 28/07/2021 09:56:01
+Message : Table Created Successfully !!!
+Total Time Elapsed : 20 ms
+
+Query : INSERT INTO STUDENT (ID, STD_NAME) VALUES (1, "ARVINDER");
+User : rushit456
+Time of Submission : 28/07/2021 09:56:48
+Message : Column STD_NAME not exist in table
+Total Time Elapsed : 5 ms
+
+Query : INSERT INTO STUDENT (ID, NAME) VALUES (1, "ARVINDER");
+User : rushit456
+Time of Submission : 28/07/2021 09:56:58
+Message : Table is in use by other user !!!
+Total Time Elapsed : 3 ms
+
+Query : INSERT INTO STUDENT (ID, NAME) VALUES (1, "ARVINDER");
+User : rushit456
+Time of Submission : 28/07/2021 09:57:49
+Message : Row inserted
+Total Time Elapsed : 34 ms
+
+Query : INSERT INTO STUDENT (ID, NAME) VALUES (2, "RUSHIT");
+User : rushit456
+Time of Submission : 28/07/2021 09:58:23
+Message : Row inserted
+Total Time Elapsed : 16 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 30/07/2021 16:19:25
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : CREATE TABLE STUDENT (ID INT(10), NAME VARCHAR(45))
+User : rushit123
+Time of Submission : 30/07/2021 16:20:34
+Message : Table already Exist !!!
+Total Time Elapsed : 5 ms
+
+Query : CREATE TABLE TESTSTUDENT (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (TEST))
+User : rushit123
+Time of Submission : 30/07/2021 16:22:57
+Message : Invalid Primary Key !!!
+Total Time Elapsed : 3 ms
+
+Query : CREATE TABLE TESTSTUDENT (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:23:21
+Message : Table Created Successfully !!!
+Total Time Elapsed : 8 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 30/07/2021 16:27:01
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE TABLE STUDENT (ID INT(10), NAME VARCHAR(45))
+User : rushit123
+Time of Submission : 30/07/2021 16:27:59
+Message : Table already Exist !!!
+Total Time Elapsed : 3 ms
+
+Query : CREATE TABLE TESTSTUDENT (ID INT(10), NAME VARCHAR(45))
+User : rushit123
+Time of Submission : 30/07/2021 16:28:41
+Message : Table Created Successfully !!!
+Total Time Elapsed : 4 ms
+
+Query : CREATE TABLE TESTSTUDENT_1 (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (TEST))
+User : rushit123
+Time of Submission : 30/07/2021 16:30:13
+Message : Invalid Primary Key !!!
+Total Time Elapsed : 2 ms
+
+Query : CREATE TABLE TESTSTUDENT_1 (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:30:24
+Message : Table Created Successfully !!!
+Total Time Elapsed : 4 ms
+
+Query : CREATE TABLE TEST_STUDENT_2 (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID), FOREIGN KEY (NAME) REFERENCES TEST(ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:32:27
+Message : Invalid Foreign Reference Table : TEST
+Total Time Elapsed : 5 ms
+
+Query : CREATE TABLE TEST_STUDENT_2 (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID), FOREIGN KEY (NAME) REFERENCES STUDENT(ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:33:12
+Message : Invalid Foreign Reference Field : ID
+Total Time Elapsed : 6 ms
+
+Query : CREATE TABLE TEST_STUDENT_2 (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID), FOREIGN KEY (NAME) REFERENCES STUDENT_NEW(ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:33:43
+Message : Invalid Foreign Reference Field : ID
+Total Time Elapsed : 7 ms
+
+Query : CREATE TABLE TEST_STUDENT_2 (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID), FOREIGN KEY (NAME) REFERENCES STUDENT_NEW(STD_ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:34:02
+Message : Table Created Successfully !!!
+Total Time Elapsed : 13 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 30/07/2021 16:51:13
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 4 ms
+
+Query : CREATE TABLE STUDENT (ID INT(10), NAME VARCHAR(45))
+User : rushit123
+Time of Submission : 30/07/2021 16:52:10
+Message : Table already Exist !!!
+Total Time Elapsed : 4 ms
+
+Query : CREATE TABLE STUDENT_TEST (ID INT(10), NAME VARCHAR(45), PRIMARY KEY(TEST))
+User : rushit123
+Time of Submission : 30/07/2021 16:53:33
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : CREATE TABLE STUDENT_TEST (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (TEST))
+User : rushit123
+Time of Submission : 30/07/2021 16:53:43
+Message : Invalid Primary Key !!!
+Total Time Elapsed : 3 ms
+
+Query : CREATE TABLE STUDENT_TEST (ID INT(10), NAME VARCHAR(45), PRIMARY KEY (ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:53:59
+Message : Table Created Successfully !!!
+Total Time Elapsed : 8 ms
+
+Query : CREATE TABLE GRADES_NEW (GRADEID INT(10), SNAME VARCHAR(45), PRIMARY KEY (GRADEID), FOREIGN KEY (GRADENAME) REFERENCES TEST(ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:56:16
+Message : Invalid Foreign Key : GRADENAME
+Total Time Elapsed : 3 ms
+
+Query : CREATE TABLE GRADES_NEW (GRADEID INT(10), SNAME VARCHAR(45), PRIMARY KEY (GRADEID), FOREIGN KEY (SNAME) REFERENCES TEST(ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:56:38
+Message : Invalid Foreign Reference Table : TEST
+Total Time Elapsed : 5 ms
+
+Query : CREATE TABLE GRADES_NEW (GRADEID INT(10), SNAME VARCHAR(45), PRIMARY KEY (GRADEID), FOREIGN KEY (SNAME) REFERENCES STUDENT_TEST(ID))
+User : rushit123
+Time of Submission : 30/07/2021 16:57:11
+Message : Table Created Successfully !!!
+Total Time Elapsed : 9 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 18:15:43
+Message : TEST Database Selected !!!
+Total Time Elapsed : 8 ms
+
+Query : DELETE FROM TABLE_STUDENT WHERE NAME = "TIJIL";
+User : rushit123
+Time of Submission : 03/08/2021 18:17:38
+Message : 
+Total Time Elapsed : 13 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "TIJIL";
+User : rushit123
+Time of Submission : 03/08/2021 18:18:08
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 60 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "HETS";
+User : rushit123
+Time of Submission : 03/08/2021 18:20:13
+Message : 
+Total Time Elapsed : 3 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "HETS";
+User : rushit123
+Time of Submission : 03/08/2021 18:20:41
+Message : 
+Total Time Elapsed : 2 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "HETS";
+User : rushit123
+Time of Submission : 03/08/2021 18:21:20
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 3 ms
+
+Query : SELECT DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 18:22:36
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 18:23:03
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 18:25:27
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "HETS";
+User : rushit123
+Time of Submission : 03/08/2021 18:25:56
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 13 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 18:27:42
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "HETS";
+User : rushit123
+Time of Submission : 03/08/2021 18:28:03
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 16 ms
+
+Query : DELETE FROM STUDENT WHERE ID = 20;
+User : rushit123
+Time of Submission : 03/08/2021 18:28:45
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 19:45:30
+Message : TEST Database Selected !!!
+Total Time Elapsed : 54 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 19:47:56
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : DELETE FROM STUDENT WHERE NAME = "TIJIL";
+User : rushit123
+Time of Submission : 03/08/2021 19:48:14
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 14 ms
+
+Query : DELETE FROM STUDENET WHERE ID != 39;
+User : rushit123
+Time of Submission : 03/08/2021 19:49:33
+Message : 
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 19:50:28
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : DELETE FROM STUDENT WHERE ID != 39;
+User : rushit123
+Time of Submission : 03/08/2021 19:50:57
+Message : DELETED 1 ROW SUCCESSFULLY
+Total Time Elapsed : 82 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 20:05:02
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : UPDATE STUDENT SET ID = 20 WHERE ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:05:34
+Message : Column ID not exist in table
+Total Time Elapsed : 32 ms
+
+Query : UPDATE STUDENT SET "ID" = 20 WHERE "ID" = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:08:10
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : UPDATE STUDENT SET  ID = 20 WHERE ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:08:38
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : UPDATE STUDENT SET ID = 20 WHERE ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:08:49
+Message : Column ID not exist in table
+Total Time Elapsed : 20 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 20:50:56
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE SET STD_ID = 23 WHERE STD_ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:51:36
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : UPDATE STUDENT SET STD_ID = 23 WHERE STD_ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:52:00
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 47 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 20:58:42
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : UPDATE STUDENT SET STD_ID = 23 WHERE STD_ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 20:59:08
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 36 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:08:24
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : UPDATE STUDENT SET STD_ID = 23 WHERE STD_ID = 22;
+User : rushit123
+Time of Submission : 03/08/2021 21:09:11
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 72 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:11:48
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDENT SET STD_ID = 23 WHERE STD_ID=22;
+User : rushit123
+Time of Submission : 03/08/2021 21:12:19
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 33 ms
+
+Query : UPDATE
+User : rushit123
+Time of Submission : 03/08/2021 21:13:07
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : UPDATE STUDENT SET STD_ID = 40 WHERE STD_NAME = "HETS";
+User : rushit123
+Time of Submission : 03/08/2021 21:13:39
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 24 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:17:27
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:18:51
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "HETT" WHERE STD_ID = 40;
+User : rushit123
+Time of Submission : 03/08/2021 21:19:02
+Message : Table is in use by other user !!!
+Total Time Elapsed : 2 ms
+
+Query : USE DATBASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:19:42
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "HETT" WHERE STD_ID = 40
+User : rushit123
+Time of Submission : 03/08/2021 21:19:46
+Message : Please Select Database First !!!
+Total Time Elapsed : 0 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:20:03
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "HETT" WHERE STD_ID = 40;
+User : rushit123
+Time of Submission : 03/08/2021 21:20:10
+Message : Table is in use by other user !!!
+Total Time Elapsed : 3 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 03/08/2021 21:21:32
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "HETT" WHERE STD_ID = 40;
+User : rushit123
+Time of Submission : 03/08/2021 21:21:38
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 34 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 04/08/2021 03:31:43
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : INSERT INTO STUDENT (STD_ID,STD_NAME) VALUES (15, "PRARTHANA");
+User : rushit123
+Time of Submission : 04/08/2021 03:32:56
+Message : Row inserted
+Total Time Elapsed : 34 ms
+
+Query : PRARTHANA
+User : prarthana
+Time of Submission : 04/08/2021 03:39:01
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 04/08/2021 03:44:10
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDENT STD_ID = 26 WHERE STD_NAME = "ARVINDER";
+User : rushit123
+Time of Submission : 04/08/2021 03:45:13
+Message : Invalid Query !!!
+Total Time Elapsed : 1 ms
+
+Query : UPDATE STUDENT SET STD_ID = 26 WHERE STD_NAME = "ARVINDER";
+User : rushit123
+Time of Submission : 04/08/2021 03:45:46
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 117 ms
+
+Query : USE DATABASE TEST
+User : rushit123
+Time of Submission : 04/08/2021 04:01:11
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDENT SET STD_ID = 33 WHERE STD_NAME = "RUSHIT";
+User : rushit123
+Time of Submission : 04/08/2021 04:02:36
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 35 ms
+
+Query : USE DATABASE TEST
+User : prarthana
+Time of Submission : 04/08/2021 04:21:33
+Message : TEST Database Selected !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDDENT SET STD_ID = 36 WHERE STD_NAME= "DEAN";
+User : prarthana
+Time of Submission : 04/08/2021 04:22:50
+Message : Table not Exist !!!
+Total Time Elapsed : 2 ms
+
+Query : UPDATE STUDENT SET STD_ID = 36 WHERE STD_NAME= "DEAN";
+User : prarthana
+Time of Submission : 04/08/2021 04:23:02
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 42 ms
+
+Query : USE DATABASE TEST
+User : prarthana
+Time of Submission : 04/08/2021 04:33:08
+Message : TEST Database Selected !!!
+Total Time Elapsed : 4 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "DB" WHERE STD_ID != 15;
+User : prarthana
+Time of Submission : 04/08/2021 04:34:02
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 41 ms
+
+Query : 15,"PS"
+User : prarthana
+Time of Submission : 04/08/2021 04:37:01
+Message : Invalid Query !!!
+Total Time Elapsed : 0 ms
+
+Query : UPDATE STUDENT SET STD_ID = 13 WHERE STD_NAME != "PS";
+User : prarthana
+Time of Submission : 04/08/2021 04:37:48
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 19 ms
+
+Query : UPDATE STUDENT SET STD_ID = 13 WHERE STD_NAME != "PS";
+User : prarthana
+Time of Submission : 04/08/2021 04:38:31
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 27 ms
+
+Query : UPDATE STUDENT SET STD_ID = 13 WHERE STD_NAME != "PS";
+User : prarthana
+Time of Submission : 04/08/2021 04:39:30
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 33 ms
+
+Query : DELETE FROM STUDENT WHERE STD_NAME != "PS";
+User : prarthana
+Time of Submission : 04/08/2021 04:41:42
+Message : DELETE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 24 ms
+
+Query : USE DATABASE DB
+User : prarthana
+Time of Submission : 04/08/2021 04:44:16
+Message : Invalid Database !!!
+Total Time Elapsed : 4 ms
+
+Query : USE DATABASE TEST
+User : prarthana
+Time of Submission : 04/08/2021 04:44:28
+Message : TEST Database Selected !!!
+Total Time Elapsed : 1 ms
+
+Query : USE DATABASE TEST
+User : prarthana
+Time of Submission : 04/08/2021 04:49:59
+Message : TEST Database Selected !!!
+Total Time Elapsed : 3 ms
+
+Query : UPDATE STUDENT SET STD_ID = 55 WHERE STD_NAME != "PS";
+User : prarthana
+Time of Submission : 04/08/2021 04:50:36
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 40 ms
+
+Query : DELETE FROM STUDENT WHERE STD_NAME != "PS";
+User : prarthana
+Time of Submission : 04/08/2021 04:51:42
+Message : DELETE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 25 ms
+
+Query : USE DATABASE TEST
+User : prarthana
+Time of Submission : 04/08/2021 05:17:50
+Message : TEST Database Selected !!!
+Total Time Elapsed : 4 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "DACK" WHERE STD_ID = 50;
+User : prarthana
+Time of Submission : 04/08/2021 05:18:46
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 45 ms
+
+Query : UPDATE STUDENT SET STD_NAME = "DB" WHERE STD_ID != 50;
+User : prarthana
+Time of Submission : 04/08/2021 05:19:57
+Message : UPDATE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 36 ms
+
+Query : USE DATABASE TEST
+User : prarthana
+Time of Submission : 04/08/2021 05:23:07
+Message : TEST Database Selected !!!
+Total Time Elapsed : 5 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID = 55;
+User : prarthana
+Time of Submission : 04/08/2021 05:23:40
+Message : DELETE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 35 ms
+
+Query : DELETE FROM STUDENT WHERE STD_ID != 50;
+User : prarthana
+Time of Submission : 04/08/2021 05:26:07
+Message : DELETE PROCESS COMPLETED SUCCESSFULLY
+Total Time Elapsed : 99 ms
+
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 04/08/2021 19:42:16
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 4 ms
+
