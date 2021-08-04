@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="5408-group22-project" />
         <module name="dmw_group22" />
+        <module name="5408-group22-project-master" />
       </profile>
     </annotationProcessing>
   </component>

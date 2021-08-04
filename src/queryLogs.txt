@@ -1798,3 +1798,9 @@ Time of Submission : 04/08/2021 19:42:16
 Message : STUDENTDB Database Selected !!!
 Total Time Elapsed : 4 ms
 
+Query : USE DATABASE STUDENTDB
+User : rushit123
+Time of Submission : 04/08/2021 19:53:19
+Message : STUDENTDB Database Selected !!!
+Total Time Elapsed : 3 ms
+
